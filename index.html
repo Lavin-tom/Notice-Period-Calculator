@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notice Period End Date Calculator</title>
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="icon" type="image/jpeg" href="assets/favicon.png">
+</head>
+<body>
+<pre>
++-------------------------------------------------------------+
+|                NOTICE PERIOD END DATE CALCULATOR            |
+|-------------------------------------------------------------|
+|		Please enter the following details:           |
++-------------------------------------------------------------+
+Start Date:<input type="date" id="startDate">
++-------------------------------------------------------------+
+Notice Period (working days): <input type="number" id="noticePeriod" placeholder="e.g. 30">
+Number of Holidays/Leaves (days): <input type="number" id="holidays" placeholder="e.g. 5">
++-------------------------------------------------------------+
+ Add Saturday as working day? [<input type="checkbox" id="addSaturday">]
+ Add Sunday as working day? [<input type="checkbox" id="addSunday">]
++-------------------------------------------------------------+
+    <button onclick="calculateEndDate()">Calculate</button>  
++-------------------------------------------------------------+
+
+<div id="result">
+    <strong></strong>
+</div>
+
+</pre>
+<script src="script/main.js"></script>
+</body>
+</html>
