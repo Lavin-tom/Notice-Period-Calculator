@@ -26,6 +26,8 @@ body {
         button {
             background-color: #000000;
             color: white;
+			font-family: monospace;
+            font-size: 18px;			
             border: none;
             cursor: pointer;
             border-radius: 5px;
